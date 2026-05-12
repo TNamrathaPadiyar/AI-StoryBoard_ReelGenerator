@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Environment secrets
+.env
+*.env
+backend/.env
+frontend/.env
+.env.local
+.env.*.local
+
+# Generated media and processing output
+backend/uploads/
+backend/ai-engine/audio/
+backend/ai-engine/frames/
+backend/ai-engine/clips/
+backend/ai-engine/__pycache__/
+backend/ai-engine/transcript.txt
+backend/ai-engine/segments.json
+backend/ai-engine/words.json
+backend/ai-engine/metadata.json
+
+# Frontend builds
+frontend/build/
+frontend/build-temp*/
+frontend/build-codex-check/
+frontend/.git-nested-backup/
+
+# Python / OS noise
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

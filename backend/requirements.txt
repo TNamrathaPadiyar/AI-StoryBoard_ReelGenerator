@@ -1,0 +1,4 @@
+opencv-python
+openai-whisper
+moviepy
+groq
